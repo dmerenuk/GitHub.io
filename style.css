@@ -2008,7 +2008,7 @@ address {
             position:relative;
             height:5px;
             font-size:1em;
-            padding:0 1.45em;
+            padding:10px 1.45em;
             cursor:pointer;
             transition:800ms ease all;
             outline:none;
@@ -2046,7 +2046,7 @@ address {
               position:relative;
               height:5px;
               font-size:1em;
-              padding:0 1em;
+              padding:10px 1em;
               cursor:pointer;
               transition:800ms ease all;
               outline:none;
@@ -2099,7 +2099,7 @@ address {
                 width: 100%;
                 max-width: 100%;
                 height: auto; }
-                
+
                 /*Drop down*/
                 .dropbtn {
                   background-color: #FFF;
