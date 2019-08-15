@@ -2005,10 +2005,11 @@ address {
             background:#2eb82e;
             color:#fff;
             border:none;
-            position:relative 5px;
+            position:relative;
+            bottom:10px;
             height:5px;
             font-size:1em;
-            padding:5px 1.45em;
+            padding:6px 1.45em;
             cursor:pointer;
             transition:800ms ease all;
             outline:none;
@@ -2043,10 +2044,11 @@ address {
               background:#f63f3f;
               color:#fff;
               border:none;
-              position:relative 5px;
+              position:relative;
+              bottom:10px;
               height:5px;
               font-size:1em;
-              padding:5px 1em;
+              padding:6px 1em;
               cursor:pointer;
               transition:800ms ease all;
               outline:none;
