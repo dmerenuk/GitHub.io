@@ -2140,11 +2140,3 @@ address {
                 .dropdown:hover .dropdown-content {display: block;}
 
                 .dropdown:hover .dropbtn {background-color: #F1F1F1;}
-
-                /*Center image*/
-                .center {
-                  display: block;
-                  margin-left: auto;
-                  margin-right: auto;
-                  width: 50%;
-                }
