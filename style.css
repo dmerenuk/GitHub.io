@@ -51,7 +51,7 @@ h1 {
   margin: 0.67em 0; }
 
 h2 {
-  font-size: 1em;
+  font-size: 1.5em;
   margin: 0.1em 0; }
 
 h3 {
@@ -1961,7 +1961,7 @@ address {
       margin-top: 50px;
       margin-bottom: 30px;
       color: white;
-      font-size: 90px;
+      font-size: 75px;
       font-size: 5.625em;
       line-height: 1; }
     .hero-slider .slides .slide-desc {
