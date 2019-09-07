@@ -2140,3 +2140,8 @@ address {
                 .dropdown:hover .dropdown-content {display: block;}
 
                 .dropdown:hover .dropbtn {background-color: #F1F1F1;}
+
+                .inactiveLink {
+                  pointer-events: none;
+                  cursor: default;
+                }
