@@ -62,7 +62,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<nav class="main-navigation">
 						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
 						<ul class="menu">
-							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item current-menu-item"><a href="firebase-messaging-sw.js">Home</a></li>
 							<li class="menu-item"><a href="about.html">About Us</a></li>
 							<li class="menu-item"><a href="services.html"><font color="#F63F3F">*</font> START HERE <font color="#F63F3F">*</font></a></li>
 							<li class="menu-item"><a href="gallery.html"><font color="#2eb82e">Shop Now</font></a></li>
