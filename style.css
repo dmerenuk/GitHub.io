@@ -2147,7 +2147,7 @@ address {
                 }
 
                 /* Dropdown Button  */
-.dropbtn2 {
+.dpbutton {
   background-color: #4CAF50;
   color: white;
   padding: 16px;
@@ -2156,13 +2156,13 @@ address {
 }
 
 /* The container <div> - needed to position the dropdown content */
-.dropdown2 {
+.dp {
   position: relative;
   display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content2 {
+.ddc {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -2172,7 +2172,7 @@ address {
 }
 
 /* Links inside the dropdown */
-.dropdown-content2 a {
+.ddc a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -2180,10 +2180,10 @@ address {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content2 a:hover {background-color: #ddd;}
+.ddc a:hover {background-color: #ddd;}
 
 /* Show the dropdown menu on hover */
-.dropdown2:hover .dropdown-content {display: block;}
+.dp:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown2:hover .dropbtn {background-color: #3e8e41;}
+.dp:hover .dropbtn {background-color: #3e8e41;}
