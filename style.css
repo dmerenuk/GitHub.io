@@ -2149,7 +2149,7 @@ address {
                 /*Drop down*/
                 .dropbtn2 {
                   background-color: #2eb82e00;
-                  color: #2eb82e;
+                  color: #2eb82e00;
                   text-transform: uppercase;
                   font-family: "Titillium Web", "Open Sans", sans-serif;
                   padding: 16px;
@@ -2164,7 +2164,7 @@ address {
                 .dropdown-content2 {
                   display: none;
                   position: absolute;
-                  background-color: #2eb82e;
+                  background-color: #f1f1f1;
                   min-width: 160px;
                   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
                   z-index: 1;
