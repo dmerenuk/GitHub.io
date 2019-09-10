@@ -2168,12 +2168,11 @@ address {
                   min-width: 160px;
                   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
                   z-index: 1;
-                  color: #f63f3f;
                 }
 
                 .dropdown-content2 a {
-                  color: #181818;
-                  text-transform: uppercase;
+                  color: #f63f3f;
+                  text-transform: none;
                   font-family: "Titillium Web", "Open Sans", sans-serif;
                   padding: 10px 12px;
                   text-decoration: none;
