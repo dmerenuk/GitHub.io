@@ -2179,8 +2179,8 @@ address {
                   display: block;
                 }
 
-                .dropdown-content2 a:hover {background-color: #2eb82e;}
+                .dropdown-content2 a:hover {background-color: #ddd;}
 
                 .dropdown2:hover .dropdown-content2 {display: block;}
 
-                .dropdown2:hover .dropbtn2 {background-color: #2eb82e;}
+                .dropdown2:hover .dropbtn2 {background-color: #F1F1F1;}
