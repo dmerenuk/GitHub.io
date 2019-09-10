@@ -2148,14 +2148,13 @@ address {
 
                 /*Drop down*/
                 .dropbtn2 {
-                  background-color: transparent;
-                  color: white;
-                  padding: 10px 20px;
+                  background-color: #2eb82e00;
+                  color: #2eb82e00;
+                  text-transform: uppercase;
+                  font-family: "Titillium Web", "Open Sans", sans-serif;
+                  padding: 16px;
                   border: none;
-                  outline: none;
-                  font-size: 20px;
-                  font-size: 1.25em;
-                  display: none; }
+                }
 
                 .dropdown2 {
                   position: relative;
