@@ -2194,6 +2194,6 @@ address {
 
                 .topcorner{
                   position: absolute;
-                  bottom: 0px;
-                  left: 10px;
+                  top: 10px;
+                  right: 10px;
                 }
