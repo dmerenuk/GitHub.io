@@ -2191,3 +2191,9 @@ address {
                 .dropdown2:hover .dropdown-content2 {display: block;}
 
                 .dropdown2:hover .dropbtn2 {background-color: #F1F1F1;}
+
+                .topcorner{
+                  position: fixed;
+                  top: 10px;
+                  right: 10px;
+                }
