@@ -1958,8 +1958,7 @@ address {
     .hero-slider .slides li {
       padding-top: 130px;
       min-height: 790px;
-      float: left;
-      margin-right: 100%;
+      float: none;
       width: 100%;
       text-align: center;
       color: white; }
