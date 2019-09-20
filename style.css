@@ -1957,7 +1957,7 @@ address {
       height: 0; }
     .hero-slider .slides li {
       padding-top: 130px;
-      min-height: 790px;
+      height: 90px;
       float: left;
       margin-right: 100%;
       width: 100%;
