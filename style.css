@@ -2223,13 +2223,13 @@ address {
                 .leftcolumn {
                   float: left;
                   width: 25%;
+                  padding-left: 20px;
                 }
 
                 /* Right column */
                 .rightcolumn {
-                  float: right;
+                  float: left;
                   width: 75%;
-                  padding-left: 20px;
                 }
 
 
