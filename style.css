@@ -2221,14 +2221,14 @@ address {
                 /* Create two unequal columns that floats next to each other */
                 /* Left column */
                 .leftcolumn {
-                  float: right;
+                  float: left;
                   width: 25%;
                   padding-left: 20px;
                 }
 
                 /* Right column */
                 .rightcolumn {
-                  float: right;
+                  float: left;
                   width: 75%;
                 }
 
