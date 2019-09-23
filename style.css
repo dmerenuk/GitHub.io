@@ -2254,7 +2254,7 @@ address {
 
               /* Add a card effect for articles */
               .card {
-                 background-color: gray;
+                 background-color: red;
                  padding: 20px;
                  margin-top: 20px;
               }
