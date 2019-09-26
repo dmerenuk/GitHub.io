@@ -2227,17 +2227,18 @@ address {
 }
 
 /* Create two unequal columns that floats next to each other */
-/* Left column */
+/* right column */
 .leftcolumn {
   float: left;
   width: 75%;
+  padding-left: 20px;
 }
 
-/* Right column */
+/* left column */
 .rightcolumn {
   float: left;
   width: 25%;
-  padding-left: 20px;
+
 }
 
 /* Fake image */
