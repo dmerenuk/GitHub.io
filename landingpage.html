@@ -2,6 +2,83 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+/*Buy Button*/
+  .buy{
+    background:#2eb82e;
+    color:#fff;
+    border:none;
+    position:relative;
+    bottom:10px;
+    height:5px;
+    font-size:1em;
+    padding:6px 1.45em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  .buy:hover{
+    background:#fff;
+    color:#2eb82e;
+  }
+  .buy:before,review:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:5px;
+    width:0;
+    background: #2eb82e;
+    transition:400ms ease all;
+  }
+  .buy:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .buy:hover:before,review:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  /*Review Button*/
+    .review{
+      background:#f63f3f;
+      color:#fff;
+      border:none;
+      position:relative;
+      bottom:10px;
+      height:5px;
+      font-size:1em;
+      padding:6px 1em;
+      cursor:pointer;
+      transition:800ms ease all;
+      outline:none;
+    }
+    .review:hover{
+      background:#fff;
+      color:#f63f3f;
+    }
+    .review:before,review:after{
+      content:'';
+      position:absolute;
+      top:0;
+      right:0;
+      height:5px;
+      width:0;
+      background: #f63f3f;
+      transition:400ms ease all;
+    }
+    .review:after{
+      right:inherit;
+      top:inherit;
+      left:0;
+      bottom:0;
+    }
+    .review:hover:before,review:hover:after{
+      width:100%;
+      transition:800ms ease all;
+    }
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
