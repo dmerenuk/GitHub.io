@@ -38,7 +38,154 @@
 		<script src="js/ie-support/html5.js"></script>
 		<script src="js/ie-support/respond.js"></script>
 		<![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		/*Buy Button*/
+		  .buy{
+		    background:#2eb82e;
+		    color:#fff;
+		    border:none;
+		    position:relative;
+		    bottom:10px;
+		    height:5px;
+		    font-size:1em;
+		    padding:6px 1.45em;
+		    cursor:pointer;
+		    transition:800ms ease all;
+		    outline:none;
+		  }
+		  .buy:hover{
+		    background:#fff;
+		    color:#2eb82e;
+		  }
+		  .buy:before,review:after{
+		    content:'';
+		    position:absolute;
+		    top:0;
+		    right:0;
+		    height:5px;
+		    width:0;
+		    background: #2eb82e;
+		    transition:400ms ease all;
+		  }
+		  .buy:after{
+		    right:inherit;
+		    top:inherit;
+		    left:0;
+		    bottom:0;
+		  }
+		  .buy:hover:before,review:hover:after{
+		    width:100%;
+		    transition:800ms ease all;
+		  }
 
+		  /*Review Button*/
+		    .review{
+		      background:#f63f3f;
+		      color:#fff;
+		      border:none;
+		      position:relative;
+		      bottom:10px;
+		      height:5px;
+		      font-size:1em;
+		      padding:6px 1em;
+		      cursor:pointer;
+		      transition:800ms ease all;
+		      outline:none;
+		    }
+		    .review:hover{
+		      background:#fff;
+		      color:#f63f3f;
+		    }
+		    .review:before,review:after{
+		      content:'';
+		      position:absolute;
+		      top:0;
+		      right:0;
+		      height:5px;
+		      width:0;
+		      background: #f63f3f;
+		      transition:400ms ease all;
+		    }
+		    .review:after{
+		      right:inherit;
+		      top:inherit;
+		      left:0;
+		      bottom:0;
+		    }
+		    .review:hover:before,review:hover:after{
+		      width:100%;
+		      transition:800ms ease all;
+		    }
+		* {box-sizing: border-box;}
+		body {font-family: Verdana, sans-serif;}
+		.mySlides {display: none;}
+		img {vertical-align: middle;}
+
+		/* Slideshow container */
+		.slideshow-container {
+		  max-width: 1000px;
+		  position: relative;
+		  margin: auto;
+		}
+
+		/* Caption text */
+		.text {
+		  color: #f2f2f2;
+		  font-size: 20px;
+		  padding: 8px 12px;
+		  position: absolute;
+		  bottom: 8px;
+		  width: 100%;
+		  text-align: center;
+		}
+
+		/* Number text (1/3 etc) */
+		.numbertext {
+		  color: #f2f2f2;
+		  font-size: 12px;
+		  padding: 8px 12px;
+		  position: absolute;
+		  top: 0;
+		}
+
+		/* The dots/bullets/indicators */
+		.dot {
+		  height: 5px;
+		  width: 20px;
+		  margin: 0 1px;
+		  background-color: #bbb;
+		  display: inline-block;
+		  transition: background-color 0.6s ease;
+		}
+
+		.active {
+		  background-color: #F63F3F;
+		}
+
+		/* Fading animation */
+		.fade {
+		  -webkit-animation-name: fade;
+		  -webkit-animation-duration: 1.5s;
+		  animation-name: fade;
+		  animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+		  from {opacity: .4}
+		  to {opacity: 1}
+		}
+
+		@keyframes fade {
+		  from {opacity: .4}
+		  to {opacity: 1}
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 400px) {
+		  .text {font-size: 11px}
+		}
+		</style>
 	</head>
 
 
@@ -78,31 +225,56 @@
 			</header> <!-- .site-header -->
 
 			<main class="main-content">
-				<center><div class="hero hero-slider">
-					<ul class="slides">
-							<li data-bg-image="images/welder2.png" style="background:url('images/welder2.png') center center no-repeat;">
-							<div class="container">
-								<h2 class="slide-title">Your <font color="#F63F3F">#1</font> source for HONEST tool reviews backed by <font color="#FF8C00">Amazon</font>!</h2> <br> <br><br>
-								<p class="slide-desc">"Do to others as you would have them do to you."</p><br> <br> <br>
-								<a href="gallery.html" class="buy">Shop Tools</a> <a href="gifts.html" class="buy">Gift Ideas </a>
-							</div>
-						</li>
-							<li data-bg-image="images/carbackground.png" style="background:url('images/carbackground.png') center center no-repeat;">
-							<div class="container">
-								<br><br><h2 class="slide-title"><font color="#F63F3F">Christ</font>. Performance. Precision.</h2><br> <br><br> <br><br>
-								<p class="slide-desc">"Get the job done right the first time."</p><br> <br><br> <br>
-								<a href="about.html" class="review">Learn More</a>
-							</div>
-						</li>
-						<li data-bg-image="images/closeup.png" style="background:url('images/closeup.png') center center no-repeat;">
-							<div class="container">
-								<h2 class="slide-title">Here to save you <font color="#F63F3F">time</font> and <font color="#F63F3F">money</font>. </h2><br> <br><br>
-								<p class="slide-desc">"A man who dares to waste one hour of time has not discovered the value of life."</p><br> <br><br> <br>
-								<a href="services.html" class="review">Learn More</a>
-							</div>
-						</li>
-					</ul>
-				</div></center> <!-- .hero-slider -->
+				<div class="slideshow-container">
+
+				<div class="mySlides fade">
+				  <div class="numbertext"><a href="gallery.html" class="buy">Shop Tools</a> <a href="gifts.html"</div>
+				  <img src="images/welder2.png" style="width:100%">
+				  <div class="text">Your <font color="#F63F3F">#1</font> source for HONEST tool reviews backed by <font color="#FF8C00">Amazon</font>!</div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext"><a href="about.html" class="review">Learn More</a></div>
+				  <img src="images/carbackground.png" style="width:100%">
+				  <div class="text"><font color="#F63F3F">Christ</font>. Performance. Precision.</div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext"><a href="services.html" class="review">Learn More</a></div>
+				  <img src="images/closeup.png" style="width:100%">
+				  <div class="text">Here to save you <font color="#F63F3F">time</font> and <font color="#F63F3F">money</font>.</div>
+				</div>
+
+				</div>
+
+				<div style="text-align:center">
+				  <span class="dot"></span>
+				  <span class="dot"></span>
+				  <span class="dot"></span>
+				</div>
+
+				<script>
+				var slideIndex = 0;
+				showSlides();
+
+				function showSlides() {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("dot");
+				  for (i = 0; i < slides.length; i++) {
+				    slides[i].style.display = "none";
+				  }
+				  slideIndex++;
+				  if (slideIndex > slides.length) {slideIndex = 1}
+				  for (i = 0; i < dots.length; i++) {
+				    dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";
+				  dots[slideIndex-1].className += " active";
+				  setTimeout(showSlides, 5000); // Change image every 5 seconds
+				}
+				</script>
+ <!-- .hero-slider -->
 				<div class="container"><br>
 					<br><center><a href="about.html" class="review">Watch Our Testimony!</a> <a href="services.html" class="review">What Is God's Wrench?</a></center><br>
 					<center><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
