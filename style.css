@@ -2023,7 +2023,7 @@ address {
           }
           .buy:hover{
             background:#fff;
-            color:#2eb82e;
+            color:#1b2a2f;
           }
           .buy:before,review:after{
             content:'';
@@ -2032,7 +2032,7 @@ address {
             right:0;
             height:5px;
             width:0;
-            background: #2eb82e;
+            background: #1b2a2f;
             transition:400ms ease all;
           }
           .buy:after{
