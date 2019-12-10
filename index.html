@@ -40,6 +40,46 @@
 		<![endif]-->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
+
+		/*Shop Tools Button*/
+			.shop{
+				background:#2eb82e;
+				color:#fff;
+				border:none;
+				position:relative;
+				bottom:10px;
+				height:5px;
+				font-size:1em;
+				padding:6px 1.45em;
+				cursor:pointer;
+				transition:800ms ease all;
+				outline:none;
+			}
+			.shop:hover{
+				background:#fff;
+				color:#2eb82e;
+			}
+			.shop:before,review:after{
+				content:'';
+				position:absolute;
+				top:0;
+				right:0;
+				height:5px;
+				width:0;
+				background: #2eb82e;
+				transition:400ms ease all;
+			}
+			.shop:after{
+				right:inherit;
+				top:inherit;
+				left:0;
+				bottom:0;
+			}
+			.shop:hover:before,review:hover:after{
+				width:100%;
+				transition:800ms ease all;
+			}
+
 		/*Buy Button*/
 		  .buy{
 		    background:#1b2a2f;
@@ -257,7 +297,7 @@
 				<div class="slideshow-container">
 
 				<div class="mySlides fade">
-				  <div class="numbertext"><a href="gallery.html" class="buy">Shop Tools</a></div>
+				  <div class="numbertext"><a href="gallery.html" class="shop">Shop Tools</a></div>
 				  <img src="images/weld.jpg" style="width:100%">
 				  <div class="text">Your <font color="#F63F3F">#1</font> source for HONEST tool reviews backed by <font color="#FF8C00">Amazon</font>!</div>
 				</div>
