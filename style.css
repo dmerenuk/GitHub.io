@@ -1896,7 +1896,7 @@ address {
  */
 .site-footer {
   background-color: #1b2a2f;
-  padding: 5;
+  padding: 5px;
   text-align: center; }
 
 .subscribe-form {
