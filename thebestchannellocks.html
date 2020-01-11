@@ -176,6 +176,89 @@ a[x-apple-data-detectors] {
 	line-height:0;
 	mso-hide:all;
 }
+
+.mobile-navigation {
+  clear: both;
+  padding: 50px 20px 0;
+  display: none; }
+  .mobile-navigation .menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    background: #1b1b1b; }
+    .mobile-navigation .menu a {
+      color: white;
+      padding: 10px 20px;
+      display: block;
+      font-family: "Titillium Web", "Open Sans", sans-serif;
+      border-left: 4px solid transparent;
+      transition: .3s ease; }
+    .mobile-navigation .menu .current-menu-item a, .mobile-navigation .menu .menu-item:hover a {
+      border-left: 4px solid #f63f3f; }
+
+.main-navigation {
+  float: right; }
+  .main-navigation .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    @media screen and (min-width: 991px) {
+      .main-navigation .menu {
+        display: block !important; } }
+    @media screen and (max-width: 990px) {
+      .main-navigation .menu {
+        display: none; } }
+  .main-navigation .menu-item {
+    display: inline-block;
+    padding: 0 10px; }
+    .main-navigation .menu-item a {
+      padding: 10px;
+      border-bottom: 3px solid transparent;
+      color: white;
+      font-family: "Titillium Web", "Open Sans", sans-serif;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-size: 0.875em;
+      font-weight: 700;
+      transition: .3s ease; }
+    .main-navigation .menu-item.current-menu-item a, .main-navigation .menu-item:hover a {
+      border-bottom: 3px solid #f63f3f; }
+
+/*
+ * Sidebar Styles
+ */
+.content .entry-title {
+  font-size: 36px;
+  font-size: 2.25em;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 50px 0; }
+.content p {
+  font-size: 18px;
+  font-size: 1.125em;
+  line-height: 1.5;
+  font-weight: 100;
+  margin-bottom: 10px; }
+.content figure {
+  text-align: center;
+  margin-bottom: 40px; }
+  .content figure img {
+    max-width: 100%;
+    height: 285px; }
+  .content figure.block img {
+    width: 100%;
+    max-width: 100%;
+    height: auto; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+  
 </style>
 
  <body style="width:100%;font-family:arial, 'helvetica neue', helvetica, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0;">
