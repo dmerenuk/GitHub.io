@@ -1,5 +1,12 @@
 User-agent: *
 Disallow: /ComingSoon.html
+Disallow: /services.html
+Disallow: /gallery.html
+Disallow: /about.html
+Disallow: /gifts.html
+Disallow: /deals.html
+Disallow: /share.html
+Disallow: /knipexpliers.html
 Disallow: /css/
 Disallow: /js/
 Disallow: /fonts/
