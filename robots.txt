@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /ComingSoon.html
+Disallow: /css/
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /dummy/
+Disallow: /images/
+Allow: /images/80%.png
+Allow: /images/newlogo.png
+Allow: /images/toolpic.png
+Allow: /images/topfiveplierslogo.png
+Allow: /images/plainlogo.png
+Allow: /images/subscribers_logo.png
+Sitemap: https://godswrench.com/sitemap.xml
